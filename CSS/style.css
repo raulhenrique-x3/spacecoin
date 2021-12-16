@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    background-image: url(../Images/Moon\ and\ Earth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.apresent{
+    color: white;
+    position: relative;
+    right: 50%;
+    margin-bottom: 20%;
+    font-size: 24px;
+    text-align: center;
+}
+
+.cont-info{
+    background: linear-gradient(90deg, rgb(0, 183, 255, .4), rgb(0, 0, 0,.2));
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    border-radius: 25px;
+}
+
+.subm-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    position: absolute;
+    margin-bottom: 80%;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    position: relative;
+    text-align: center;
+    right: 5%;
+    font-size: 18px;
+    font-weight: 5;
+    color: white;
+}
+input{
+    border-radius: 10px;
+    text-align: center;
+    background: none;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    color: white;
+}
+
+.subm-button{
+    color: white;
+}
+
+.subm-button a{
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+}
+
+.login-button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(0, 183, 255, .4), rgb(0, 0, 0,.2));
+    border-radius: 10px;
+}
+@media (max-width:1040px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+
+    }
+
+    .apresent{
+        display: none;
+    }
+
+    .cont-info{
+        background: linear-gradient(90deg, rgb(0, 183, 255, .4), rgb(0, 0, 0,.2));
+        width: 300px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 5%;
+        border-radius: 25px;
+    }
+    .subm-infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    h2{
+        position: absolute;
+        margin-bottom: 80%;
+        text-align: center;
+        color: white;
+        display: none;
+    }
+    
+    h3{
+        position: relative;
+        text-align: center;
+        right: 5%;
+        font-size: 18px;
+        font-weight: 5;
+        color: white;
+    }
+    input{
+        border-radius: 10px;
+        text-align: center;
+        background: none;
+        border: 1px solid white;
+        margin: 10px;
+        padding: 10px;
+        outline: none;
+        color: white;
+    }
+    
+    .subm-button{
+        color: white;
+    }
+    
+    .subm-button a{
+        color: rgb(0, 174, 255);
+        text-decoration: none;
+    }
+    
+    .login-button{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px;
+        background: linear-gradient(90deg, rgb(0, 183, 255, .4), rgb(0, 0, 0,.2));
+        border-radius: 10px;
+    }
+
+    
+}
